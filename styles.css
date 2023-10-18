@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+
+h1,h2,h3,p{
+    color: #ffff;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: #181e1e;
+}
+
+#yo{
+    border-radius: 100px;
+    max-width: 100px;
+    margin-bottom: 18px;
+}
+
+b{
+    color: #3f98e0;
+}
+
+.hero{
+    min-height: 70vh;
+}
+
+.hero h3{
+    font-size: 23px;
+}
+
+.elh2{
+    font-size: 36px;
+    text-align: center;
+}
+
+.hero p{
+    font-size: 15px;
+    opacity: 0.45;
+    margin-top: 12px;
+}
+
+.flecha{
+    max-width: 50px;
+    padding-top: 30px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Skills */
+.skills-icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.skill-icon{
+    max-width: 40px;
+}
+
+/* Mis Proyectos */
+.MisProyectos{
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.project{
+    border: #3f98e0 2px solid;
+    border-radius: 3px;
+}
+
+.project-img{
+    max-width: 300px;
+    object-fit: cover;
+}
+
+/* Fotter */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px 10px 30px
+}
+
+footer img{
+    max-width: 30px;
+}
+
+footer img, p{
+    margin: 10px;
+}
+
+#whats{
+    position: absolute;
+    right: 10px;
+}
